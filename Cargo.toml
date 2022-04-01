@@ -1,8 +1,11 @@
 [package]
 name = "aarch64-intrinsics"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+license = "MIT OR Apache-2.0 WITH LLVM-exception"
+description = "AArch64 optimized compiler intrinsics"
+authors = [
+  "Ard Biesheuvel <ardb@kernel.org>",
+]
+repository = "https://github.com/ardbiesheuvel/aarch64-intrinsics"
+categories = ["embedded", "no-std"]
